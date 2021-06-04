@@ -4,8 +4,39 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <ListView
-        android:id="@+id/listViewExamTips"
+    <EditText
+        android:id="@+id/editTextColour"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_new_colour"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextIndex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/enter_position_number"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonAddition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_new_colour" />
+
+    <ListView
+        android:id="@+id/listViewColour"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/powered_by_ka_kian" />
+
 </LinearLayout>

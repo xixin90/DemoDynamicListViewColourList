@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Demo Dynamic ListView Colour List</string>
+    <string name="powered_by_ka_kian">Powered by Ka Kian</string>
+    <string name="enter_new_colour">Enter New Colour</string>
+    <string name="enter_position_number">Enter position number</string>
+    <string name="add_new_colour">Add new colour</string>
 </resources>
